@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Assignment 3</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="by_kenny_bui_eric_reyes"><![CDATA[By: Kenny Bui & Eric Reyes]]></string>
+
+    <integer-array name="row_options">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <integer-array name="column_options">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+    </integer-array>
+
+    <string-array name="board_options">
+        <item>4 x 6</item>
+        <item>5 x 10</item>
+        <item>6 x 15</item>
+    </string-array>
+
+    <integer-array name="mine_options">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+    <integer name="default_mine">6</integer>
+    <string name="default_row_and_columns">4 x 6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutAuthor">Kenny Bui and Eric Reyes are both second year SOSY students at Simon Fraser University. They are both enrolled in CMPT276, taught by professor Brian Fraser.
+        Click
+        <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home" >here</a>
+        to learn more about the course.</string>
+    <string name="instructions">Asteroid Detector is a board game in where the user must help guide the astronaut out of the way of asteroids. The user can help the astronaut navigate through
+        harm\'s way by using satellite scans. The less satellite scans used before finding all the asteroids, the higher the score! Upon pressing a tile, if an asteroid is revealed, no scans will
+        be used. However, if a number is revealed, that means a satellite scan was used and\nreveals how many potential asteroids are along the row and column of that tile. Users can also use
+        satellite scans on already revealed asteroids.
+    </string>
+    <string name ="links">
+        Explosion sound was taken from
+        <a href="https://www.zapsplat.com/sound-effect-category/explosions/">here</a> \n
+        Satellite sound was taken from
+        <a href ="https://retired.sounddogs.com/results.asp?categoryid=1037&amp;subcategoryid=7&amp;type=1">here </a>\n
+        Astronaut picture was taken from
+        <a href ="https://www.pngfuel.com/free-png/gqemc">here</a>\n
+        Rocket picture was taken from
+        <a href = "https://www.123rf.com/photo_69255153_stock-vector-colored-rocket-ship-icon-in-flat-design-simple-spaceship-icon-isolated-on-white-background-vector-il.html">here</a>\n
+        Asteroid picture was taken from
+        <a href = "https://www.vectorstock.com/royalty-free-vector/flame-meteor-asteroid-meteor-rain-fall-in-cartoon-vector-23637019">here</a>
+
+
+
+    </string>
+    <string name="about">About</string>
+    <string name="Instructions">Instructions:</string>
+    <string name="Links">Links</string>
+    <string name="AsteroidText">TextView</string>
+    <string name="SatelliteText">TextView</string>
+    <string name="PlayedText">TextView</string>
+    <string name="AsteroidDetector">Asteroid Detector</string>
+    <string name="Skip">SKIP</string>
+    <string name="PlayGame">Play game!</string>
+    <string name="Options">Options</string>
+    <string name="Help">Help</string>
+    <string name="MainMenu">Main Menu</string>
+    <string name="BoardSize">Board Size</string>
+    <string name="Asteroids"># Asteroids</string>
+    <string name="Congratulations">Congratulations! You helped the astronaut navigate through all the asteroids!</string>
+    <string name="Return">Press OK to return to main menu.</string>
+    <string name="Erase">Erase Times Played</string>
+    <string name="HighScores">High Scores</string>
+
+</resources>
